@@ -1,0 +1,39 @@
+button {
+    margin: 1rem;
+}
+form#options {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+
+}
+form#options label {
+    display: block;
+    margin: .5rem;
+    min-width: 200px;
+}
+
+form#options input,
+form#options select {
+    width: 154px;
+    margin: .5rem;
+    text-align: center;
+}
+
+form#options input {
+    width: calc(154px - 8px);
+}
+
+@media (max-width: 500px) {
+    form#options {
+        display: inherit;
+    }
+    form#options input,
+    form#options select {
+        font-size: 1.45em;
+        width: 80vw;
+    }
+    form#options input {
+        width: calc(80vw - 8px);
+    }
+}

@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn-main {
+  background-color: rgb(143, 200, 202);
+}
+.btn-secondary {
+  background-color: rgb(189, 185, 185);
+}
+
+#root h1 {
+  font-size: 2.5rem;
+}
+
+#root button {
+  font-size: 1.40rem;
+}
+
+#root p {
+  font-size: 1.2rem;
+}
+

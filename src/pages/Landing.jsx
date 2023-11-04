@@ -91,7 +91,7 @@ export default function Landing ({ loadQuestions, settings, setSettings}) {
     }
     return (
         <>
-            <h1>Quiz App</h1>
+            <h1>Trivia App</h1>
             <button className="btn-secondary" onClick={() => setHideAdvanced(b => !b)}>Advanced</button>
             {options}
             <button className="btn-main" onClick={() => startQuiz()}>Start</button>
